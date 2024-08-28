@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+
+/* header section  */
+.navbar{
+   width: 100%;
+   background-color: #0a0a26; 
+   padding-left: 24px;
+   padding-right: 24px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    gap: 35px;
+    margin-top: 20px;
+    margin-right: 10px;
+} /* <- Missing closing brace added here */
+
+.main-logo{
+   margin-left: 20px;
+}
+
+.nav-links{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.nav-links:hover{
+    color: rgb(194, 42, 42);
+}
+
+/* intro section  */
+.intro-img{
+    width: 100%;
+}
+
+/* main-content section  */
+.main-content-section{
+    width: 100%;
+}
+.main-content-div{
+    width: 100%;
+    /* display:flex; */
+}
+.left-img{
+    background-color: #fecd31;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brewbold-bgImg{
+    display: block;
+
+}
+#brew-img{
+    width: 190px;
+}
+.left-img p {
+    font-size: 80px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+
+}
+.right-content{
+    width: 100%;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.content-div{
+    width: 100%;
+    /* height: 500px; */
+}
+.content-div p{
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    margin-bottom: 32px;
+
+}
+
+.right-content {
+    padding: 120px !important;
+}
+
+/* bottom image section  */
+.bottom-img-div{
+    width: 100%;
+
+}
+
+/* footer  section  */
+.bottom-img-div{
+    width: 100%;
+}
+.footer-div{
+    padding: 20px;
+}
+
+.footer-row div{
+    margin-bottom: 30px;
+}
+
+.footer-row div p{
+    font-size: 13px;
+    color: black;
+}
+.social-media-footer-icons img{
+    margin-left: 5px;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+   
+    #brew-img{
+        width: 100px;
+    }
+
+    .left-img p {
+        font-size:40px; 
+    }
+
+    .content-div p {
+        font-size: 24px; 
+        margin-bottom: 10px;
+    }
+
+    .right-content{
+        padding: 30px !important;
+    }
+}
